@@ -69,19 +69,19 @@ export default {
     'Instructions': {
       'VBA-RR': 'Dette kan bli gjort ved å åpne <em>Tools</em> » <em>Lua Script Window</em> » <em>New Lua Script Window</em> inni VBA-ReRecording <em>(Sørg for å ikke lukke det nye Script vinduet, men du kan minimere den)</em',
       'DeSmuME': 'Dette kan bli gjort ved å åpne <em>Tools</em> » <em>Lua Scripting</em> » <em>New Lua Script Window</em> inni <em>DeSmuME</strong> <em>(Sørg for å ikke lukke det nye Script vinduet, men du kan minimere den)</em>',
-      'Bizhawk': 'Pokélink automatically generated a lua script for your session. We closed Bizhawk, and launched it again with the lua script injected for you!'
+      'Bizhawk': 'Pokélink har automatisk generert en lua script for din økt. Vi har restartet Bizhawk med den rette lua scripten for deg!'
     },
     'Errors': {
       'Bizhawk': {
         'EmulatorClosedUnexpectedly': {
-          'Title': 'Bizhawk Close Detected',
-          'Message': 'Pokelink detected that Bizhawk was unexpectedly closed. If you did not intend to close Bizhawk, please end this session, close Pokélink, re-open Pokélink and resume this session to continue.'
+          'Title': 'Bizhawk Avslutting Oppdaget',
+          'Message': 'Pokélink har oppdaget en uventet Bizhawk avslutting. Dersom du ikke planla å avlutte Bizhawl, vennligst avslutt denne økten, avslutt Pokélink, gjenåpne Pokélink og deretter gjenoppta økten for å fortsette.'
         },
         'RomRequired': {
-          'Message': 'ROM needs to be dropped in the previous step to use Bizhawk'
+          'Message': 'ROM må bli lagt inn i det forrige steget for å bruke Bizhawk'
         },
         'BadBizhawkVersion': {
-          'Message': 'Bizhawk version must be {version}'
+          'Message': 'Bizhawk versjonen må være {version}'
         }
       }
     }
